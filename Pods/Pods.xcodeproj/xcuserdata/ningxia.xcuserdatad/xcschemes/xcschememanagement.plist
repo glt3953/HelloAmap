@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-FXBlurView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KissXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3C864E6D15B5B45CB0B8EB6D</key>
+		<key>401524D00B312483F83EA170</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>715263B4843C46CBD182C1AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4967373F91714B929EAE460</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <MAMapKit/MAMapKit.h>
 #import <AMapSearchKit/AMapSearchAPI.h>
+#import "UIImage+NingXia.h"
 
 #define APIKey @"2f8447dea339f146fbdde7d53016f902"
 
@@ -32,9 +33,21 @@
     _locationButton.layer.cornerRadius = 5;
     
     [_locationButton addTarget:self action:@selector(locateAction) forControlEvents:UIControlEventTouchUpInside];
-    [_locationButton setImage:[UIImage imageNamed:@"location_no"] forState:UIControlStateNormal];
+    [_locationButton setImage:[self getLocationImageByStatus:MAUserTrackingModeNone] forState:UIControlStateNormal];
     
     [_mapView addSubview:_locationButton];
+}
+
+- (UIImage *)getLocationImageByStatus:(MAUserTrackingMode)mode {
+    if (mode == MAUserTrackingModeNone) {
+        return [UIImage nx_makeImageFromText:@"\ue611"
+                                 font:[UIFont fontWithName:@"app-icon" size:24.f]
+                                color:[UIColor grayColor]];
+    } else {
+        return [UIImage nx_makeImageFromText:@"\ue610"
+                                        font:[UIFont fontWithName:@"app-icon" size:24.f]
+                                       color:[UIColor greenColor]];
+    }
 }
 
 - (void)initSearch {
@@ -75,11 +88,7 @@
 
 - (void)mapView:(MAMapView *)mapView didChangeUserTrackingMode:(MAUserTrackingMode)mode animated:(BOOL)animated {
     // 修改按钮定位状态
-    if (mode == MAUserTrackingModeNone) {
-        [_locationButton setImage:[UIImage imageNamed:@"location_no"] forState:UIControlStateNormal];
-    } else {
-        [_locationButton setImage:[UIImage imageNamed:@"location_yes"] forState:UIControlStateNormal];
-    }
+    [_locationButton setImage:[self getLocationImageByStatus:mode] forState:UIControlStateNormal];
 }
 
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {

@@ -15,6 +15,37 @@
 		5AC2C69F1AFF5B1D004E4FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2C69E1AFF5B1D004E4FE9 /* Images.xcassets */; };
 		5AC2C6A21AFF5B1D004E4FE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2C6A01AFF5B1D004E4FE9 /* LaunchScreen.xib */; };
 		5AC2C6AE1AFF5B1D004E4FE9 /* HelloAmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C6AD1AFF5B1D004E4FE9 /* HelloAmapTests.m */; };
+		5ADA9DC01B087EAC0060A454 /* appIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9DBE1B087EAC0060A454 /* appIcon.ttf */; };
+		5ADA9DC11B087EAC0060A454 /* fficon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9DBF1B087EAC0060A454 /* fficon.ttf */; };
+		5ADA9DF31B0880A40060A454 /* NSString+NXHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DC51B0880A40060A454 /* NSString+NXHTML.m */; };
+		5ADA9DF41B0880A40060A454 /* NSString+NXIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DC71B0880A40060A454 /* NSString+NXIM.m */; };
+		5ADA9DF51B0880A40060A454 /* UIButton + EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DC91B0880A40060A454 /* UIButton + EnlargeTouchArea.m */; };
+		5ADA9DF61B0880A40060A454 /* UIColor+NingXia.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DCB1B0880A40060A454 /* UIColor+NingXia.m */; };
+		5ADA9DF71B0880A40060A454 /* UIImage+NingXia.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DCD1B0880A40060A454 /* UIImage+NingXia.m */; };
+		5ADA9DF81B0880A40060A454 /* UILabel+NingXia.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DCF1B0880A40060A454 /* UILabel+NingXia.m */; };
+		5ADA9DF91B0880A40060A454 /* UITableView+NXIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DD11B0880A40060A454 /* UITableView+NXIM.m */; };
+		5ADA9DFA1B0880A40060A454 /* UIView+NXSetViewValueByTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DD31B0880A40060A454 /* UIView+NXSetViewValueByTag.m */; };
+		5ADA9DFB1B0880A40060A454 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DD51B0880A40060A454 /* UIView+Nib.m */; };
+		5ADA9DFC1B0880A40060A454 /* NXBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DD81B0880A40060A454 /* NXBadgeLabel.m */; };
+		5ADA9DFD1B0880A40060A454 /* RFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DDC1B0880A40060A454 /* RFSegmentView.m */; };
+		5ADA9DFE1B0880A40060A454 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DDF1B0880A40060A454 /* UINavigationBar+Awesome.m */; };
+		5ADA9E081B0880A40060A454 /* NXPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9DF21B0880A40060A454 /* NXPaintView.m */; };
+		5ADA9E131B0882B40060A454 /* NXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E0B1B0882B40060A454 /* NXActionSheet.m */; };
+		5ADA9E141B0882B40060A454 /* NXActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9E0C1B0882B40060A454 /* NXActionSheet.xib */; };
+		5ADA9E151B0882B40060A454 /* NXActionSheetBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E0E1B0882B40060A454 /* NXActionSheetBody.m */; };
+		5ADA9E161B0882B40060A454 /* NXActionSheetBody.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9E0F1B0882B40060A454 /* NXActionSheetBody.xib */; };
+		5ADA9E171B0882B40060A454 /* NXActionSheetSubTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E111B0882B40060A454 /* NXActionSheetSubTitle.m */; };
+		5ADA9E181B0882B40060A454 /* NXActionSheetSubTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9E121B0882B40060A454 /* NXActionSheetSubTitle.xib */; };
+		5ADA9E1F1B0882C70060A454 /* NXBlurToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E1B1B0882C70060A454 /* NXBlurToolBar.m */; };
+		5ADA9E201B0882C70060A454 /* NXBlurToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ADA9E1C1B0882C70060A454 /* NXBlurToolBar.xib */; };
+		5ADA9E211B0882C70060A454 /* NXBlurToolBarButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E1E1B0882C70060A454 /* NXBlurToolBarButtonModel.m */; };
+		5ADA9E341B0885930060A454 /* NXFileManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E2D1B0885930060A454 /* NXFileManagerUtil.m */; };
+		5ADA9E351B0885930060A454 /* NXLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E2F1B0885930060A454 /* NXLanguage.m */; };
+		5ADA9E361B0885930060A454 /* NXTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E311B0885930060A454 /* NXTimeUtil.m */; };
+		5ADA9E371B0885930060A454 /* NXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E331B0885930060A454 /* NXUtil.m */; };
+		5ADA9E391B0886B20060A454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA9E381B0886B20060A454 /* UIKit.framework */; };
+		5ADA9E3B1B0887B90060A454 /* NingXia-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E3A1B0887650060A454 /* NingXia-Prefix.pch */; };
+		5ADA9E401B088AFB0060A454 /* UIViewController+StoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +74,60 @@
 		5AC2C6A71AFF5B1D004E4FE9 /* HelloAmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2C6AC1AFF5B1D004E4FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC2C6AD1AFF5B1D004E4FE9 /* HelloAmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAmapTests.m; sourceTree = "<group>"; };
+		5ADA9DBE1B087EAC0060A454 /* appIcon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = appIcon.ttf; sourceTree = "<group>"; };
+		5ADA9DBF1B087EAC0060A454 /* fficon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fficon.ttf; sourceTree = "<group>"; };
+		5ADA9DC41B0880A40060A454 /* NSString+NXHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NXHTML.h"; sourceTree = "<group>"; };
+		5ADA9DC51B0880A40060A454 /* NSString+NXHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NXHTML.m"; sourceTree = "<group>"; };
+		5ADA9DC61B0880A40060A454 /* NSString+NXIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NXIM.h"; sourceTree = "<group>"; };
+		5ADA9DC71B0880A40060A454 /* NSString+NXIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NXIM.m"; sourceTree = "<group>"; };
+		5ADA9DC81B0880A40060A454 /* UIButton + EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton + EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		5ADA9DC91B0880A40060A454 /* UIButton + EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton + EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		5ADA9DCA1B0880A40060A454 /* UIColor+NingXia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NingXia.h"; sourceTree = "<group>"; };
+		5ADA9DCB1B0880A40060A454 /* UIColor+NingXia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NingXia.m"; sourceTree = "<group>"; };
+		5ADA9DCC1B0880A40060A454 /* UIImage+NingXia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NingXia.h"; sourceTree = "<group>"; };
+		5ADA9DCD1B0880A40060A454 /* UIImage+NingXia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NingXia.m"; sourceTree = "<group>"; };
+		5ADA9DCE1B0880A40060A454 /* UILabel+NingXia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NingXia.h"; sourceTree = "<group>"; };
+		5ADA9DCF1B0880A40060A454 /* UILabel+NingXia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NingXia.m"; sourceTree = "<group>"; };
+		5ADA9DD01B0880A40060A454 /* UITableView+NXIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NXIM.h"; sourceTree = "<group>"; };
+		5ADA9DD11B0880A40060A454 /* UITableView+NXIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NXIM.m"; sourceTree = "<group>"; };
+		5ADA9DD21B0880A40060A454 /* UIView+NXSetViewValueByTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NXSetViewValueByTag.h"; sourceTree = "<group>"; };
+		5ADA9DD31B0880A40060A454 /* UIView+NXSetViewValueByTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NXSetViewValueByTag.m"; sourceTree = "<group>"; };
+		5ADA9DD41B0880A40060A454 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		5ADA9DD51B0880A40060A454 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		5ADA9DD71B0880A40060A454 /* NXBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBadgeLabel.h; sourceTree = "<group>"; };
+		5ADA9DD81B0880A40060A454 /* NXBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBadgeLabel.m; sourceTree = "<group>"; };
+		5ADA9DDB1B0880A40060A454 /* RFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFSegmentView.h; sourceTree = "<group>"; };
+		5ADA9DDC1B0880A40060A454 /* RFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFSegmentView.m; sourceTree = "<group>"; };
+		5ADA9DDE1B0880A40060A454 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		5ADA9DDF1B0880A40060A454 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		5ADA9DF11B0880A40060A454 /* NXPaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPaintView.h; sourceTree = "<group>"; };
+		5ADA9DF21B0880A40060A454 /* NXPaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPaintView.m; sourceTree = "<group>"; };
+		5ADA9E0A1B0882B40060A454 /* NXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXActionSheet.h; sourceTree = "<group>"; };
+		5ADA9E0B1B0882B40060A454 /* NXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXActionSheet.m; sourceTree = "<group>"; };
+		5ADA9E0C1B0882B40060A454 /* NXActionSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXActionSheet.xib; sourceTree = "<group>"; };
+		5ADA9E0D1B0882B40060A454 /* NXActionSheetBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXActionSheetBody.h; sourceTree = "<group>"; };
+		5ADA9E0E1B0882B40060A454 /* NXActionSheetBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXActionSheetBody.m; sourceTree = "<group>"; };
+		5ADA9E0F1B0882B40060A454 /* NXActionSheetBody.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXActionSheetBody.xib; sourceTree = "<group>"; };
+		5ADA9E101B0882B40060A454 /* NXActionSheetSubTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXActionSheetSubTitle.h; sourceTree = "<group>"; };
+		5ADA9E111B0882B40060A454 /* NXActionSheetSubTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXActionSheetSubTitle.m; sourceTree = "<group>"; };
+		5ADA9E121B0882B40060A454 /* NXActionSheetSubTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXActionSheetSubTitle.xib; sourceTree = "<group>"; };
+		5ADA9E1A1B0882C70060A454 /* NXBlurToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBlurToolBar.h; sourceTree = "<group>"; };
+		5ADA9E1B1B0882C70060A454 /* NXBlurToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBlurToolBar.m; sourceTree = "<group>"; };
+		5ADA9E1C1B0882C70060A454 /* NXBlurToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NXBlurToolBar.xib; sourceTree = "<group>"; };
+		5ADA9E1D1B0882C70060A454 /* NXBlurToolBarButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBlurToolBarButtonModel.h; sourceTree = "<group>"; };
+		5ADA9E1E1B0882C70060A454 /* NXBlurToolBarButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBlurToolBarButtonModel.m; sourceTree = "<group>"; };
+		5ADA9E2C1B0885930060A454 /* NXFileManagerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXFileManagerUtil.h; sourceTree = "<group>"; };
+		5ADA9E2D1B0885930060A454 /* NXFileManagerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXFileManagerUtil.m; sourceTree = "<group>"; };
+		5ADA9E2E1B0885930060A454 /* NXLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLanguage.h; sourceTree = "<group>"; };
+		5ADA9E2F1B0885930060A454 /* NXLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLanguage.m; sourceTree = "<group>"; };
+		5ADA9E301B0885930060A454 /* NXTimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTimeUtil.h; sourceTree = "<group>"; };
+		5ADA9E311B0885930060A454 /* NXTimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTimeUtil.m; sourceTree = "<group>"; };
+		5ADA9E321B0885930060A454 /* NXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXUtil.h; sourceTree = "<group>"; };
+		5ADA9E331B0885930060A454 /* NXUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXUtil.m; sourceTree = "<group>"; };
+		5ADA9E381B0886B20060A454 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ADA9E3A1B0887650060A454 /* NingXia-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NingXia-Prefix.pch"; sourceTree = "<group>"; };
+		5ADA9E3E1B088AFB0060A454 /* UIViewController+StoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryBoard.h"; sourceTree = "<group>"; };
+		5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryBoard.m"; sourceTree = "<group>"; };
 		65BCF049A4C866236AB06FF9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADA9E391B0886B20060A454 /* UIKit.framework in Frameworks */,
 				1A0AA3521A5D6879BC1EE721 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +175,10 @@
 		5AC2C6901AFF5B1D004E4FE9 /* HelloAmap */ = {
 			isa = PBXGroup;
 			children = (
+				5ADA9E3C1B088AFB0060A454 /* Controller */,
+				5ADA9E2B1B0885930060A454 /* Utils */,
+				5ADA9DC21B0880A40060A454 /* View */,
+				5ADA9DBC1B087EAC0060A454 /* Resources */,
 				5AC2C6951AFF5B1D004E4FE9 /* AppDelegate.h */,
 				5AC2C6981AFF5B1D004E4FE9 /* ViewController.h */,
 				5AC2C6991AFF5B1D004E4FE9 /* ViewController.m */,
@@ -103,6 +193,7 @@
 		5AC2C6911AFF5B1D004E4FE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5ADA9E3A1B0887650060A454 /* NingXia-Prefix.pch */,
 				5AC2C6921AFF5B1D004E4FE9 /* Info.plist */,
 				5AC2C6931AFF5B1D004E4FE9 /* main.m */,
 			);
@@ -126,6 +217,166 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5ADA9DBC1B087EAC0060A454 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DBD1B087EAC0060A454 /* TTF */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5ADA9DBD1B087EAC0060A454 /* TTF */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DBE1B087EAC0060A454 /* appIcon.ttf */,
+				5ADA9DBF1B087EAC0060A454 /* fficon.ttf */,
+			);
+			path = TTF;
+			sourceTree = "<group>";
+		};
+		5ADA9DC21B0880A40060A454 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DC31B0880A40060A454 /* Category */,
+				5ADA9DD61B0880A40060A454 /* Controls */,
+				5ADA9DD91B0880A40060A454 /* Libs */,
+				5ADA9DE01B0880A40060A454 /* Misc */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5ADA9DC31B0880A40060A454 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DC41B0880A40060A454 /* NSString+NXHTML.h */,
+				5ADA9DC51B0880A40060A454 /* NSString+NXHTML.m */,
+				5ADA9DC61B0880A40060A454 /* NSString+NXIM.h */,
+				5ADA9DC71B0880A40060A454 /* NSString+NXIM.m */,
+				5ADA9DC81B0880A40060A454 /* UIButton + EnlargeTouchArea.h */,
+				5ADA9DC91B0880A40060A454 /* UIButton + EnlargeTouchArea.m */,
+				5ADA9DCA1B0880A40060A454 /* UIColor+NingXia.h */,
+				5ADA9DCB1B0880A40060A454 /* UIColor+NingXia.m */,
+				5ADA9DCC1B0880A40060A454 /* UIImage+NingXia.h */,
+				5ADA9DCD1B0880A40060A454 /* UIImage+NingXia.m */,
+				5ADA9DCE1B0880A40060A454 /* UILabel+NingXia.h */,
+				5ADA9DCF1B0880A40060A454 /* UILabel+NingXia.m */,
+				5ADA9DD01B0880A40060A454 /* UITableView+NXIM.h */,
+				5ADA9DD11B0880A40060A454 /* UITableView+NXIM.m */,
+				5ADA9DD21B0880A40060A454 /* UIView+NXSetViewValueByTag.h */,
+				5ADA9DD31B0880A40060A454 /* UIView+NXSetViewValueByTag.m */,
+				5ADA9DD41B0880A40060A454 /* UIView+Nib.h */,
+				5ADA9DD51B0880A40060A454 /* UIView+Nib.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5ADA9DD61B0880A40060A454 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DD71B0880A40060A454 /* NXBadgeLabel.h */,
+				5ADA9DD81B0880A40060A454 /* NXBadgeLabel.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		5ADA9DD91B0880A40060A454 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DDA1B0880A40060A454 /* RFSegmentView */,
+				5ADA9DDD1B0880A40060A454 /* UINavigationBar+Awesome */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		5ADA9DDA1B0880A40060A454 /* RFSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DDB1B0880A40060A454 /* RFSegmentView.h */,
+				5ADA9DDC1B0880A40060A454 /* RFSegmentView.m */,
+			);
+			path = RFSegmentView;
+			sourceTree = "<group>";
+		};
+		5ADA9DDD1B0880A40060A454 /* UINavigationBar+Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9DDE1B0880A40060A454 /* UINavigationBar+Awesome.h */,
+				5ADA9DDF1B0880A40060A454 /* UINavigationBar+Awesome.m */,
+			);
+			path = "UINavigationBar+Awesome";
+			sourceTree = "<group>";
+		};
+		5ADA9DE01B0880A40060A454 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E191B0882C70060A454 /* NXBlurToolBar */,
+				5ADA9E091B0882B40060A454 /* NXActionSheet */,
+				5ADA9DF11B0880A40060A454 /* NXPaintView.h */,
+				5ADA9DF21B0880A40060A454 /* NXPaintView.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		5ADA9E091B0882B40060A454 /* NXActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E0A1B0882B40060A454 /* NXActionSheet.h */,
+				5ADA9E0B1B0882B40060A454 /* NXActionSheet.m */,
+				5ADA9E0C1B0882B40060A454 /* NXActionSheet.xib */,
+				5ADA9E0D1B0882B40060A454 /* NXActionSheetBody.h */,
+				5ADA9E0E1B0882B40060A454 /* NXActionSheetBody.m */,
+				5ADA9E0F1B0882B40060A454 /* NXActionSheetBody.xib */,
+				5ADA9E101B0882B40060A454 /* NXActionSheetSubTitle.h */,
+				5ADA9E111B0882B40060A454 /* NXActionSheetSubTitle.m */,
+				5ADA9E121B0882B40060A454 /* NXActionSheetSubTitle.xib */,
+			);
+			path = NXActionSheet;
+			sourceTree = "<group>";
+		};
+		5ADA9E191B0882C70060A454 /* NXBlurToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E1A1B0882C70060A454 /* NXBlurToolBar.h */,
+				5ADA9E1B1B0882C70060A454 /* NXBlurToolBar.m */,
+				5ADA9E1C1B0882C70060A454 /* NXBlurToolBar.xib */,
+				5ADA9E1D1B0882C70060A454 /* NXBlurToolBarButtonModel.h */,
+				5ADA9E1E1B0882C70060A454 /* NXBlurToolBarButtonModel.m */,
+			);
+			path = NXBlurToolBar;
+			sourceTree = "<group>";
+		};
+		5ADA9E2B1B0885930060A454 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E2C1B0885930060A454 /* NXFileManagerUtil.h */,
+				5ADA9E2D1B0885930060A454 /* NXFileManagerUtil.m */,
+				5ADA9E2E1B0885930060A454 /* NXLanguage.h */,
+				5ADA9E2F1B0885930060A454 /* NXLanguage.m */,
+				5ADA9E301B0885930060A454 /* NXTimeUtil.h */,
+				5ADA9E311B0885930060A454 /* NXTimeUtil.m */,
+				5ADA9E321B0885930060A454 /* NXUtil.h */,
+				5ADA9E331B0885930060A454 /* NXUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5ADA9E3C1B088AFB0060A454 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E3D1B088AFB0060A454 /* Category */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5ADA9E3D1B088AFB0060A454 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5ADA9E3E1B088AFB0060A454 /* UIViewController+StoryBoard.h */,
+				5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		919E574FBCDB00F005DAAE1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +389,7 @@
 		FFEBAEC0B2A141F29AABA170 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5ADA9E381B0886B20060A454 /* UIKit.framework */,
 				050CFEF09D541710DBD3813C /* libPods.a */,
 			);
 			name = Frameworks;
@@ -226,8 +478,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC2C69D1AFF5B1D004E4FE9 /* Main.storyboard in Resources */,
+				5ADA9DC11B087EAC0060A454 /* fficon.ttf in Resources */,
+				5ADA9DC01B087EAC0060A454 /* appIcon.ttf in Resources */,
+				5ADA9E141B0882B40060A454 /* NXActionSheet.xib in Resources */,
+				5ADA9E161B0882B40060A454 /* NXActionSheetBody.xib in Resources */,
 				5AC2C6A21AFF5B1D004E4FE9 /* LaunchScreen.xib in Resources */,
 				5AC2C69F1AFF5B1D004E4FE9 /* Images.xcassets in Resources */,
+				5ADA9E181B0882B40060A454 /* NXActionSheetSubTitle.xib in Resources */,
+				5ADA9E201B0882C70060A454 /* NXBlurToolBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +536,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADA9E3B1B0887B90060A454 /* NingXia-Prefix.pch in Sources */,
+				5ADA9E1F1B0882C70060A454 /* NXBlurToolBar.m in Sources */,
 				5AC2C69A1AFF5B1D004E4FE9 /* ViewController.m in Sources */,
+				5ADA9E401B088AFB0060A454 /* UIViewController+StoryBoard.m in Sources */,
+				5ADA9E171B0882B40060A454 /* NXActionSheetSubTitle.m in Sources */,
+				5ADA9DF51B0880A40060A454 /* UIButton + EnlargeTouchArea.m in Sources */,
+				5ADA9E211B0882C70060A454 /* NXBlurToolBarButtonModel.m in Sources */,
+				5ADA9DFD1B0880A40060A454 /* RFSegmentView.m in Sources */,
 				5AC2C6971AFF5B1D004E4FE9 /* AppDelegate.m in Sources */,
+				5ADA9DFE1B0880A40060A454 /* UINavigationBar+Awesome.m in Sources */,
+				5ADA9DFC1B0880A40060A454 /* NXBadgeLabel.m in Sources */,
+				5ADA9DF91B0880A40060A454 /* UITableView+NXIM.m in Sources */,
+				5ADA9E371B0885930060A454 /* NXUtil.m in Sources */,
+				5ADA9DFA1B0880A40060A454 /* UIView+NXSetViewValueByTag.m in Sources */,
+				5ADA9DF61B0880A40060A454 /* UIColor+NingXia.m in Sources */,
+				5ADA9DF81B0880A40060A454 /* UILabel+NingXia.m in Sources */,
+				5ADA9E131B0882B40060A454 /* NXActionSheet.m in Sources */,
+				5ADA9DF71B0880A40060A454 /* UIImage+NingXia.m in Sources */,
+				5ADA9E351B0885930060A454 /* NXLanguage.m in Sources */,
+				5ADA9DFB1B0880A40060A454 /* UIView+Nib.m in Sources */,
+				5ADA9DF31B0880A40060A454 /* NSString+NXHTML.m in Sources */,
+				5ADA9DF41B0880A40060A454 /* NSString+NXIM.m in Sources */,
+				5ADA9E081B0880A40060A454 /* NXPaintView.m in Sources */,
 				5AC2C6941AFF5B1D004E4FE9 /* main.m in Sources */,
+				5ADA9E151B0882B40060A454 /* NXActionSheetBody.m in Sources */,
+				5ADA9E361B0885930060A454 /* NXTimeUtil.m in Sources */,
+				5ADA9E341B0885930060A454 /* NXFileManagerUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +691,7 @@
 			baseConfigurationReference = 65BCF049A4C866236AB06FF9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HelloAmap/NingXia-Prefix.pch";
 				INFOPLIST_FILE = HelloAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +703,7 @@
 			baseConfigurationReference = 4ED782D5F5AF7FAF93EC0C1A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "HelloAmap/NingXia-Prefix.pch";
 				INFOPLIST_FILE = HelloAmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

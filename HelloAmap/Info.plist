@@ -22,6 +22,11 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>appIcon.ttf</string>
+		<string>fficon.ttf</string>
+	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>提示</string>
 	<key>UILaunchStoryboardName</key>

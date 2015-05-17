@@ -1,0 +1,31 @@
+//
+//  NingXia-Prefix.pch
+//  NingXia
+//
+//  Created by ningxia on 14/12/19.
+//  Copyright (c) 2014年 NingXia. All rights reserved.
+//
+
+#ifndef NingXia_NingXia_Prefix_pch
+#define NingXia_NingXia_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+#import "DDXML.h"
+#import "NXUtil.h"
+#import "UIViewController+StoryBoard.h"
+#define App ((HBAppDelegate*)[UIApplication sharedApplication].delegate)
+//多国语言包
+#define lang(stringkey)  NSLocalizedString(stringkey, nil)
+
+#endif

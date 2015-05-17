@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="fficon.ttf">
+            <string>fficon</string>
+            <string>fficon</string>
+            <string>fficon</string>
+            <string>fficon</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NXBlurToolBar">
+            <connections>
+                <outlet property="blurBackground" destination="52T-LH-qZT" id="HVP-Zr-5yg"/>
+                <outlet property="button1" destination="XfO-Nd-9eg" id="4aF-iz-HT0"/>
+                <outlet property="button2" destination="SgB-rO-awe" id="L31-v7-ozF"/>
+                <outlet property="button3" destination="HHs-oW-xni" id="18w-q1-ibv"/>
+                <outlet property="button4" destination="ZT3-sQ-3BA" id="Nma-bz-P7r"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zZv-tm-TmE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="52T-LH-qZT" userLabel="blurBackground">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyS-vB-fuq" userLabel="button1Box">
+                    <rect key="frame" x="20" y="0.0" width="125" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfO-Nd-9eg">
+                            <rect key="frame" x="43" y="5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="eca-Or-vf5"/>
+                                <constraint firstAttribute="width" constant="40" id="mfL-z6-wDE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="fficon" family="fficon" pointSize="16"/>
+                            <state key="normal" title="1">
+                                <color key="titleColor" red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="XfO-Nd-9eg" secondAttribute="centerX" id="1ic-pi-7IH"/>
+                        <constraint firstAttribute="centerY" secondItem="XfO-Nd-9eg" secondAttribute="centerY" id="EIe-X7-Ecg"/>
+                        <constraint firstAttribute="height" constant="50" id="b4S-PN-lA0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jR-4w-Pep" userLabel="button2Box">
+                    <rect key="frame" x="165" y="0.0" width="125" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgB-rO-awe">
+                            <rect key="frame" x="43" y="5" width="40" height="40"/>
+                            <fontDescription key="fontDescription" name="fficon" family="fficon" pointSize="16"/>
+                            <state key="normal" title="2">
+                                <color key="titleColor" red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="SgB-rO-awe" secondAttribute="centerY" id="aOa-um-uXb"/>
+                        <constraint firstAttribute="centerX" secondItem="SgB-rO-awe" secondAttribute="centerX" id="gBq-BS-ail"/>
+                        <constraint firstAttribute="height" constant="50" id="pCG-8Q-wxF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OMb-NS-CwZ" userLabel="button3Box">
+                    <rect key="frame" x="310" y="0.0" width="125" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHs-oW-xni">
+                            <rect key="frame" x="43" y="5" width="40" height="40"/>
+                            <fontDescription key="fontDescription" name="fficon" family="fficon" pointSize="16"/>
+                            <state key="normal" title="3">
+                                <color key="titleColor" red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="AA5-pa-n8i"/>
+                        <constraint firstAttribute="centerX" secondItem="HHs-oW-xni" secondAttribute="centerX" id="CwZ-le-N2b"/>
+                        <constraint firstAttribute="centerY" secondItem="HHs-oW-xni" secondAttribute="centerY" id="DqK-eV-Exo"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z19-c2-yo5" userLabel="button4Box">
+                    <rect key="frame" x="455" y="0.0" width="125" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZT3-sQ-3BA">
+                            <rect key="frame" x="43" y="5" width="40" height="40"/>
+                            <fontDescription key="fontDescription" name="fficon" family="fficon" pointSize="16"/>
+                            <state key="normal" title="4">
+                                <color key="titleColor" red="0.29019607843137257" green="0.29019607843137257" blue="0.29019607843137257" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="ZT3-sQ-3BA" secondAttribute="centerX" id="Ask-gQ-QtB"/>
+                        <constraint firstAttribute="centerY" secondItem="ZT3-sQ-3BA" secondAttribute="centerY" id="iOI-7m-DHb"/>
+                        <constraint firstAttribute="height" constant="50" id="vod-Oy-dTg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="8jR-4w-Pep" firstAttribute="width" secondItem="OMb-NS-CwZ" secondAttribute="width" id="0sM-f2-2I5"/>
+                <constraint firstItem="8jR-4w-Pep" firstAttribute="leading" secondItem="fyS-vB-fuq" secondAttribute="trailing" constant="20" id="1x4-OF-xuQ"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="height" secondItem="ZT3-sQ-3BA" secondAttribute="height" id="54j-zJ-IHr"/>
+                <constraint firstItem="52T-LH-qZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9N0-C5-wG3"/>
+                <constraint firstItem="z19-c2-yo5" firstAttribute="leading" secondItem="OMb-NS-CwZ" secondAttribute="trailing" constant="20" id="CVg-39-qEG"/>
+                <constraint firstItem="52T-LH-qZT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Cut-ez-U8P"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="width" secondItem="SgB-rO-awe" secondAttribute="width" id="D91-CV-Z3K"/>
+                <constraint firstItem="8jR-4w-Pep" firstAttribute="width" secondItem="fyS-vB-fuq" secondAttribute="width" id="IAP-rT-EVY"/>
+                <constraint firstAttribute="centerY" secondItem="z19-c2-yo5" secondAttribute="centerY" id="JpM-IT-Gzo"/>
+                <constraint firstItem="fyS-vB-fuq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="YdB-r1-h88"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="height" secondItem="SgB-rO-awe" secondAttribute="height" id="Z9T-11-Lws"/>
+                <constraint firstItem="z19-c2-yo5" firstAttribute="leading" secondItem="OMb-NS-CwZ" secondAttribute="trailing" constant="20" id="aDN-Rd-vkd"/>
+                <constraint firstAttribute="trailing" secondItem="52T-LH-qZT" secondAttribute="trailing" id="aIH-ms-2Fx"/>
+                <constraint firstAttribute="centerY" secondItem="fyS-vB-fuq" secondAttribute="centerY" id="cuO-H8-UYI"/>
+                <constraint firstAttribute="centerY" secondItem="OMb-NS-CwZ" secondAttribute="centerY" id="deE-xf-yN2"/>
+                <constraint firstItem="8jR-4w-Pep" firstAttribute="width" secondItem="z19-c2-yo5" secondAttribute="width" id="eNe-Nk-Ik2"/>
+                <constraint firstItem="8jR-4w-Pep" firstAttribute="leading" secondItem="fyS-vB-fuq" secondAttribute="trailing" constant="20" id="ejR-QY-z5z"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="width" secondItem="ZT3-sQ-3BA" secondAttribute="width" id="ftu-Hv-cgf"/>
+                <constraint firstItem="OMb-NS-CwZ" firstAttribute="leading" secondItem="8jR-4w-Pep" secondAttribute="trailing" constant="20" id="jP4-Yg-R7C"/>
+                <constraint firstAttribute="bottom" secondItem="52T-LH-qZT" secondAttribute="bottom" id="na9-LQ-q2j"/>
+                <constraint firstAttribute="centerY" secondItem="8jR-4w-Pep" secondAttribute="centerY" id="ndt-7T-V18"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="width" secondItem="HHs-oW-xni" secondAttribute="width" id="oW7-ed-FpG"/>
+                <constraint firstAttribute="trailing" secondItem="z19-c2-yo5" secondAttribute="trailing" constant="20" id="ol0-wj-BdB"/>
+                <constraint firstItem="XfO-Nd-9eg" firstAttribute="height" secondItem="HHs-oW-xni" secondAttribute="height" id="qgz-kG-Q1t"/>
+                <constraint firstItem="OMb-NS-CwZ" firstAttribute="leading" secondItem="8jR-4w-Pep" secondAttribute="trailing" constant="20" id="zly-Se-2hC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="347" y="63"/>
+        </view>
+    </objects>
+</document>
