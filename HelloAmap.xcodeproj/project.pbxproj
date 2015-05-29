@@ -46,6 +46,7 @@
 		5ADA9E391B0886B20060A454 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ADA9E381B0886B20060A454 /* UIKit.framework */; };
 		5ADA9E3B1B0887B90060A454 /* NingXia-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E3A1B0887650060A454 /* NingXia-Prefix.pch */; };
 		5ADA9E401B088AFB0060A454 /* UIViewController+StoryBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */; };
+		5AEE41F41B188B290008C10D /* PasswordInputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE41F31B188B290008C10D /* PasswordInputWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,7 @@
 		5AC2C68E1AFF5B1D004E4FE9 /* HelloAmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2C6921AFF5B1D004E4FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC2C6931AFF5B1D004E4FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5AC2C6951AFF5B1D004E4FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AC2C6951AFF5B1D004E4FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloAmap/AppDelegate.h; sourceTree = "<group>"; };
 		5AC2C6961AFF5B1D004E4FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HelloAmap/AppDelegate.m; sourceTree = "<group>"; };
 		5AC2C6981AFF5B1D004E4FE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5AC2C6991AFF5B1D004E4FE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -128,6 +129,8 @@
 		5ADA9E3A1B0887650060A454 /* NingXia-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NingXia-Prefix.pch"; sourceTree = "<group>"; };
 		5ADA9E3E1B088AFB0060A454 /* UIViewController+StoryBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StoryBoard.h"; sourceTree = "<group>"; };
 		5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StoryBoard.m"; sourceTree = "<group>"; };
+		5AEE41F21B188B290008C10D /* PasswordInputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordInputWindow.h; sourceTree = "<group>"; };
+		5AEE41F31B188B290008C10D /* PasswordInputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordInputWindow.m; sourceTree = "<group>"; };
 		65BCF049A4C866236AB06FF9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +157,7 @@
 		5AC2C6851AFF5B1D004E4FE9 = {
 			isa = PBXGroup;
 			children = (
+				5AC2C6951AFF5B1D004E4FE9 /* AppDelegate.h */,
 				5AC2C6961AFF5B1D004E4FE9 /* AppDelegate.m */,
 				5AC2C6901AFF5B1D004E4FE9 /* HelloAmap */,
 				5AC2C6AA1AFF5B1D004E4FE9 /* HelloAmapTests */,
@@ -179,7 +183,6 @@
 				5ADA9E2B1B0885930060A454 /* Utils */,
 				5ADA9DC21B0880A40060A454 /* View */,
 				5ADA9DBC1B087EAC0060A454 /* Resources */,
-				5AC2C6951AFF5B1D004E4FE9 /* AppDelegate.h */,
 				5AC2C6981AFF5B1D004E4FE9 /* ViewController.h */,
 				5AC2C6991AFF5B1D004E4FE9 /* ViewController.m */,
 				5AC2C69B1AFF5B1D004E4FE9 /* Main.storyboard */,
@@ -237,6 +240,7 @@
 		5ADA9DC21B0880A40060A454 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5AEE41F11B188B290008C10D /* PasswordInputWindow */,
 				5ADA9DC31B0880A40060A454 /* Category */,
 				5ADA9DD61B0880A40060A454 /* Controls */,
 				5ADA9DD91B0880A40060A454 /* Libs */,
@@ -375,6 +379,15 @@
 				5ADA9E3F1B088AFB0060A454 /* UIViewController+StoryBoard.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		5AEE41F11B188B290008C10D /* PasswordInputWindow */ = {
+			isa = PBXGroup;
+			children = (
+				5AEE41F21B188B290008C10D /* PasswordInputWindow.h */,
+				5AEE41F31B188B290008C10D /* PasswordInputWindow.m */,
+			);
+			path = PasswordInputWindow;
 			sourceTree = "<group>";
 		};
 		919E574FBCDB00F005DAAE1E /* Pods */ = {
@@ -543,6 +556,7 @@
 				5ADA9E171B0882B40060A454 /* NXActionSheetSubTitle.m in Sources */,
 				5ADA9DF51B0880A40060A454 /* UIButton + EnlargeTouchArea.m in Sources */,
 				5ADA9E211B0882C70060A454 /* NXBlurToolBarButtonModel.m in Sources */,
+				5AEE41F41B188B290008C10D /* PasswordInputWindow.m in Sources */,
 				5ADA9DFD1B0880A40060A454 /* RFSegmentView.m in Sources */,
 				5AC2C6971AFF5B1D004E4FE9 /* AppDelegate.m in Sources */,
 				5ADA9DFE1B0880A40060A454 /* UINavigationBar+Awesome.m in Sources */,

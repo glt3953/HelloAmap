@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloAmap/ViewController.m"
-            timestampString = "453551181.673831"
+            filePath = "HelloAmap/AppDelegate.m"
+            timestampString = "454593677.842315"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "211"
-            endingLineNumber = "211"
-            landmarkName = "-tableView:numberOfRowsInSection:"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-applicationDidEnterBackground:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
