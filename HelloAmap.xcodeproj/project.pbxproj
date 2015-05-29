@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A0AA3521A5D6879BC1EE721 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 050CFEF09D541710DBD3813C /* libPods.a */; };
 		5AC2C6941AFF5B1D004E4FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C6931AFF5B1D004E4FE9 /* main.m */; };
-		5AC2C6971AFF5B1D004E4FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C6961AFF5B1D004E4FE9 /* AppDelegate.m */; };
+		5AC2C6971AFF5B1D004E4FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C6961AFF5B1D004E4FE9 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5AC2C69A1AFF5B1D004E4FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C6991AFF5B1D004E4FE9 /* ViewController.m */; };
 		5AC2C69D1AFF5B1D004E4FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2C69B1AFF5B1D004E4FE9 /* Main.storyboard */; };
 		5AC2C69F1AFF5B1D004E4FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2C69E1AFF5B1D004E4FE9 /* Images.xcassets */; };

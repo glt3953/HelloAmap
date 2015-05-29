@@ -4,7 +4,7 @@
 //
 //  Created by ningxia on 15/5/10.
 //  Copyright (c) 2015年 ningxia. All rights reserved.
-//
+//  在Build Phases中的AppDelegate.m设置-fno-objc-arc，启用手工管理引用计数的模式
 
 #import "AppDelegate.h"
 #import "PasswordInputWindow.h"
@@ -18,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSObject *object = [[NSObject alloc] init];
+    NSLog(@"Reference Count = %lu", [object retainCount]);
+    NSObject *another = [object retain];
+    NSLog(@"Reference Count = %lu", [object retainCount]);
+    [another release];
+    NSLog(@"Reference Count = %lu", [object retainCount]);
+    [object release];
+    NSLog(@"Reference Count = %lu", [object retainCount]);// 向一个已经被回收的对象发了一个retainCount消息，所以它的输出结果是不确定的
+    
     return YES;
 }
 
